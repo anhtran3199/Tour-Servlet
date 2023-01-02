@@ -1,9 +1,7 @@
-package DAO;
+package anhtt.tour_servlet.DAO;
 
 
-import Entity.Ticket;
-
-import java.sql.SQLException;
+import anhtt.tour_servlet.Model.Ticket;
 
 public class TicketDAO extends DAO {
     public TicketDAO() {

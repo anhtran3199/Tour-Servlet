@@ -1,6 +1,7 @@
-package DAO;
+package anhtt.tour_servlet.DAO;
 
-import Entity.Vehicle;
+
+import anhtt.tour_servlet.Model.Vehicle;
 
 import java.util.ArrayList;
 

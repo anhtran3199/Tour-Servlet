@@ -1,4 +1,4 @@
-package Entity;
+package anhtt.tour_servlet.Model;
 
 import java.util.Date;
 

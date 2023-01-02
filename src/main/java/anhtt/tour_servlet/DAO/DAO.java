@@ -1,4 +1,4 @@
-package DAO;
+package anhtt.tour_servlet.DAO;
 
 import java.io.Serializable;
 import java.sql.Connection;

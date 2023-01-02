@@ -1,6 +1,6 @@
-package DAO;
+package anhtt.tour_servlet.DAO;
 
-import Entity.User;
+import anhtt.tour_servlet.Model.User;
 
 import java.util.Date;
 

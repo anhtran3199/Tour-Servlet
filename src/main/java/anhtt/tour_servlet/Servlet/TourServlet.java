@@ -1,7 +1,7 @@
-package Servlet;
+package anhtt.tour_servlet.Servlet;
 
-import DAO.TourDAO;
-import model.Tour;
+import anhtt.tour_servlet.Model.Tour;
+import anhtt.tour_servlet.DAO.TourDAO;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

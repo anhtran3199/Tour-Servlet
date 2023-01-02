@@ -1,4 +1,4 @@
-package Entity;
+package anhtt.tour_servlet.Model;
 
 public class Ticket {
     private int id, idTour, idTicketSalesman, totalPrice;

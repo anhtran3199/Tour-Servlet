@@ -1,28 +1,27 @@
-package Entity;
+package anhtt.tour_servlet.Model;
 
-public class Vehicle {
-    private int id, idTour, capacity, price;
+public class Service {
+    private int id, idTour, price;
     private String name, description;
 
-    public Vehicle() {
-    }
-
-    public Vehicle(int id, int idTour, int capacity, int price, String name, String description) {
+    public Service(int id, String name, int price, String description) {
         this.id = id;
-        this.idTour = idTour;
-        this.capacity = capacity;
         this.price = price;
         this.name = name;
         this.description = description;
     }
 
-    public int getPrice() {
-        return price;
+    public Service() {
     }
 
-    public void setPrice(int price) {
+    public Service(int id, int idTour, String name, int price, String desc) {
+        this.id = id;
         this.price = price;
+        this.name = name;
+        this.description = desc;
+        this.idTour = idTour;
     }
+
 
     public int getId() {
         return id;
@@ -40,12 +39,12 @@ public class Vehicle {
         this.idTour = idTour;
     }
 
-    public int getCapacity() {
-        return capacity;
+    public int getPrice() {
+        return price;
     }
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public String getName() {
@@ -66,10 +65,9 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
+        return "Service{" +
                 "id=" + id +
                 ", idTour=" + idTour +
-                ", capacity=" + capacity +
                 ", price=" + price +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
